@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ben&Jerry's</title>
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="HomeNav" id="Home">
+			<!-- Navbar -->
+			<nav>
+				<div class="navKiri">
+					<img src="assets/logo.png" alt="Logo" />
+				</div>
+				<div class="navKanan">
+					<p><a href="#Home">Home</a></p>
+					<p><a href="#AboutUs">About Us</a></p>
+					<p><a href="#Catalog">Catalog</a></p>
+					<a href="#OrderNow">
+						<input class="orderNowBtn" type="button" value="Order Now" />
+					</a>
+				</div>
+			</nav>
+			<!-- End of Navbar -->
+
+			<!-- Jumbotron -->
+			<div class="jumbotron">
+				<h1>Spreading the joy<br />In every scoop you take</h1>
+				<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos minus impedit eaque blanditiis omnis dolores officiis. Accusamus quos maxime recusandae id.</span><br />
+				<input class="exploreMoreBtn" type="button" value="Explore more" />
+			</div>
+			<!-- End of Jumbotron -->
+		</div>
+
+		<!-- About us -->
+		<div class="aboutUs" id="AboutUs">
+			<div class="gambar">
+				<div class="bingkai">
+					<img src="assets/photo.png" alt="" />
+				</div>
+			</div>
+			<div class="about">
+				<h1>About us</h1>
+				<span
+					>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sit possimus, qui, id, exercitationem quia itaque fugit deserunt accusamus suscipit quam explicabo beatae mollitia! Ullam nostrum eligendi repudiandae ad placeat
+					officia modi, voluptates hic ducimus.</span
+				><br /><br />
+				<span
+					>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dignissimos repellendus quasi harum molestias veniam perspiciatis quia natus necessitatibus officiis iste, assumenda delectus non ipsam aperiam magnam similique
+					accusantium voluptatum labore debitis repudiandae omnis rem!</span
+				>
+			</div>
+		</div>
+		<!-- End of About us -->
+
+		<!-- Catalog -->
+		<div class="catalog" id="Catalog">
+			<h1>Tons of flavor and shapes</h1>
+			<div class="row">
+				<div class="card">
+					<img src="assets/product.png" alt="" />
+					<h2>Lorem, ipsum.</h2>
+					<span class="badge">NEW</span>
+				</div>
+				<div class="card">
+					<img src="assets/product.png" alt="" />
+					<h2>Lorem, ipsum.</h2>
+				</div>
+				<div class="card">
+					<img src="assets/product.png" alt="" />
+					<h2>Lorem, ipsum.</h2>
+				</div>
+				<div class="card">
+					<img src="assets/product.png" alt="" />
+					<h2>Lorem, ipsum.</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="card">
+					<img src="assets/product.png" alt="" />
+					<h2>Lorem, ipsum.</h2>
+					<span class="badge">NEW</span>
+				</div>
+				<div class="card">
+					<img src="assets/product.png" alt="" />
+					<h2>Lorem, ipsum.</h2>
+				</div>
+				<div class="card">
+					<img src="assets/product.png" alt="" />
+					<h2>Lorem, ipsum.</h2>
+				</div>
+				<div class="card">
+					<img src="assets/product.png" alt="" />
+					<h2>Lorem, ipsum.</h2>
+				</div>
+			</div>
+		</div>
+		<!-- End of Catalog -->
+
+		<!-- Order -->
+		<div class="order">
+			<!-- Header -->
+			<h1>Order Now</h1>
+			<!-- Order List -->
+			<div class="list">
+				<table class="orderList">
+					<caption>
+						Order List
+					</caption>
+					<thead>
+						<tr>
+							<th>No</th>
+							<th>Name</th>
+							<th>Qty</th>
+							<th>Price</th>
+							<th>Subtotal</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>Cherry Crumble</td>
+							<td>1</td>
+							<td>$4.50</td>
+							<td>$4.50</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Peanut Butter World</td>
+							<td>2</td>
+							<td>$4.00</td>
+							<td>$8.00</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Netflix & Chill'd</td>
+							<td>1</td>
+							<td>$4.75</td>
+							<td>$4.75</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>Vanilla</td>
+							<td>3</td>
+							<td>$.3.80</td>
+							<td>$11.40</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<!-- Form -->
+			<div class="recieverForm" id="OrderNow">
+				<div class="rfKiri">
+					<h2>Reciever Form</h2>
+					<form action="">
+						<div class="rowForm">
+							<input type="text" name="FirstName" id="" placeholder="First Name" />
+							<input type="text" name="LastName" id="" placeholder="Last Name" />
+						</div>
+						<div class="rowForm">
+							<input type="text" name="Country" id="" placeholder="Country" />
+							<input type="text" name="City" id="" placeholder="City" />
+						</div>
+						<div class="rowForm">
+							<input type="text" name="Address" id="" placeholder="Address" />
+						</div>
+						<div class="rowForm">
+							<input type="date" />
+						</div>
+					</form>
+				</div>
+				<div class="rfKanan">
+					<h2>Paymen Method</h2>
+					<div class="rowPay">
+						<input type="radio" name="Cash" id="" /><span>Cash</span>
+						<img src="assets/payment-cash.png" alt="" />
+					</div>
+					<div class="rowPay">
+						<input type="radio" name="Cash" id="" /><span>Visa</span>
+						<img src="assets/payment-visa.png" alt="" />
+					</div>
+					<div class="rowPay">
+						<input type="radio" name="Cash" id="" /><span>Paypal</span>
+						<img src="assets/payment-paypal.png" alt="" />
+					</div>
+					<div class="rowPay">
+						<input type="radio" name="Cash" id="" /><span>Credit</span>
+						<img src="assets/payment-credit.png" alt="" />
+					</div>
+					<div class="ConfirmBtn">
+						<input type="button" value="Confirm Order" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End of Order -->
+
+		<!-- Footer -->
+		<footer>
+			<div class="footerText">
+				<span>Copyright &copy; 2022</span><br />
+				<span>Tugas Praktikum BWP</span><br />
+				<span>221116958 - Geovann Chandra</span><br />
+			</div>
+		</footer>
+		<!-- End of Footer -->
+	</body>
+</html>
